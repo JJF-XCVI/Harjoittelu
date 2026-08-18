@@ -1,0 +1,20 @@
+{
+  "name": "harjoittelu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node aika.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJF-XCVI/Harjoittelu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJF-XCVI/Harjoittelu/issues"
+  },
+  "homepage": "https://github.com/JJF-XCVI/Harjoittelu#readme"
+}
