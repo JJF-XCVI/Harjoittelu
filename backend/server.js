@@ -18,12 +18,10 @@ function getCurrentDateTime() {
   return now.toLocaleString('fi-FI', options);
 }
 
-// Luodaan API-reitti, josta frontend voi hakea ajan (vastaa mallin routes/orders.js ideaa)
 app.get('/api/aika', (req, res) => {
   res.json({ aika: getCurrentDateTime() });
 });
 
-// Käynnistetään palvelin
 app.listen(PORT, () => {
   console.log(`Backend-palvelin käynnissä portissa http://localhost:${PORT}`);
 });
