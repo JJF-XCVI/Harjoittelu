@@ -1,16 +1,16 @@
-const js = require("@eslint/js");
+import js from "@eslint/js";
 
-module.exports = [
+export default [
   js.configs.recommended,
   {
     files: ["**/*.js"],
     languageOptions: {
-      sourceType: "commonjs", // Koska valitsit CommonJS
+      sourceType: "module",
       ecmaVersion: "latest",
     },
     rules: {
       "no-unused-vars": "warn",
-      "no-console": "off" // Sallitaan console.log, koska kyseessä on backend
+      "no-console": "off"
     }
   }
 ];

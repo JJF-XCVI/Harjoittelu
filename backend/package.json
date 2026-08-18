@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/server.js",
     "lint": "eslint ."
@@ -17,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/JJF-XCVI/Harjoittelu/issues"
   },
-  "homepage": "https://github.com/JJF-XCVI/Harjoittelu#readme"
+  "homepage": "https://github.com/JJF-XCVI/Harjoittelu#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.1"
+  }
 }
