@@ -9,7 +9,7 @@ function getCurrentDateTime() {
     second: '2-digit',
     hour12: true,
   };
-  return now.toLocaleString('en-US', options);
+  return now.toLocaleString('fi-FI', options);
 }
 
 console.log(getCurrentDateTime());
